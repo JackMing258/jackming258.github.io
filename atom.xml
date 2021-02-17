@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hz1.xyz</id>
     <title>HM | Blog</title>
-    <updated>2021-02-17T11:06:30.661Z</updated>
+    <updated>2021-02-17T11:15:13.291Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hz1.xyz"/>
     <link rel="self" href="https://hz1.xyz/atom.xml"/>
@@ -16,8 +16,11 @@
         <link href="https://hz1.xyz/post/fa-xian-de-wen-ti/">
         </link>
         <updated>2021-02-17T10:56:31.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>访问较慢</strong><br>
-因为服务器是github的，所以访问慢是正常的</p>
+        <summary type="html"><![CDATA[<p><strong>访问较慢解决方案</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>访问较慢解决方案</strong></p>
+<!--more-->
+<p>因为服务器是github的，所以访问慢是正常的</p>
 ]]></content>
     </entry>
     <entry>
@@ -26,7 +29,12 @@
         <link href="https://hz1.xyz/post/test/">
         </link>
         <updated>2021-02-17T09:10:56.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>更换了主题，更加简洁</strong></p>
+]]></summary>
         <content type="html"><![CDATA[<p><strong>更换了主题，更加简洁</strong></p>
+<!-- more -->
+<p>更换了主题</p>
+<p><strong>会一直持续优化网站</strong></p>
 ]]></content>
     </entry>
 </feed>
