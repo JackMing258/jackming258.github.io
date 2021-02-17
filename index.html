@@ -4,72 +4,147 @@
     <meta charset="utf-8" >
 
 <title>HM | Blog</title>
+<meta name="description" content="永远不要怕失败，永远不要向后退">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://hz1.xyz/favicon.ico?v=1613578343931">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://hz1.xyz/favicon.ico?v=1613577996974">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://hz1.xyz/styles/main.css">
 
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
-
-    <meta name="description" content="永远不要怕失败，永远不要向后退">
-    
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://hz1.xyz">
-        <img src="https://hz1.xyz/images/avatar.png?v=1613577996974" class="site-logo">
-        <h1 class="site-title">HM | Blog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://hz1.xyz">HM | Blog</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="/" class="site-nav">
-            首页
-          </a>
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
         
-      
+          <li>
+            
+              <a href="/post/youlian" class="menu">
+                友情链接
+              </a>
+            
+          </li>
         
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
+          <li>
+            
+              <a href=" /post/juanzeng" class="menu">
+                捐赠
+              </a>
+            
+          </li>
         
-      
-        
-          <a href="/post/youlian" class="site-nav">
-            友情链接
-          </a>
-        
-      
-        
-          <a href=" /post/juanzeng" class="site-nav">
-            捐赠
-          </a>
-        
-      
+      </ul>
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+</nav>
+
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://hz1.xyz/post/fa-xian-de-wen-ti/">发现的问题</a>
+    </h2>
+    <p class="article-meta">
+      2021-02-17
+      
+    </p>
+    <p class="text-lead">
+      <p><strong>访问较慢解决方案</strong></p>
+
+    </p>
+    <div class="row">
+      <a href="https://hz1.xyz/post/fa-xian-de-wen-ti/" class="readmore-link">
+        <button>
+          Read More
+        </button>
+      </a>
+    </div>
+  </article>
+
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://hz1.xyz/post/test/">通知</a>
+    </h2>
+    <p class="article-meta">
+      2021-02-17
+      
+    </p>
+    <p class="text-lead">
+      <p><strong>更换了主题，更加简洁</strong></p>
+
+    </p>
+    <div class="row">
+      <a href="https://hz1.xyz/post/test/" class="readmore-link">
+        <button>
+          Read More
+        </button>
+      </a>
+    </div>
+  </article>
+
+
+        </div>
+        
+        <div class="row flex-edges">
+  
+  
+</div>
+
+      </div>
+      
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://hz1.xyz/images/avatar.png?v=1613578343931" class="no-responsive avatar">
+    <div class="text-muted">永远不要怕失败，永远不要向后退</div>
     <div class="social-container">
       
         
@@ -83,76 +158,70 @@
         
       
     </div>
-    <div class="site-description">
-      永远不要怕失败，永远不要向后退
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
     </div>
-    <div class="site-footer">
-      Powered by <a href="https://www.hz1.xyz" target="_blank">JackMing</a> | <a class="rss" href="https://hz1.xyz/atom.xml" target="_blank">RSS</a>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://hz1.xyz/post/fa-xian-de-wen-ti/">发现的问题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://hz1.xyz/post/juanzeng/">捐赠</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://hz1.xyz/post/test/">通知</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://hz1.xyz/post/youlian/">友情链接</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://hz1.xyz/post/about/">关于</a>
+            </li>
+          
+        
+      </ul>
     </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://www.hz1.xyz" target="_blank">JackMing</a> | <a class="rss" href="https://hz1.xyz/atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://hz1.xyz/post/fa-xian-de-wen-ti/">
-                  <h2 class="post-title">发现的问题</h2>
-                </a>
-                <div class="post-date">
-                  2021-02-17
-                </div>
-                <div class="post-abstract">
-                  <p><strong>访问较慢解决方案</strong></p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://hz1.xyz/post/test/">
-                  <h2 class="post-title">通知</h2>
-                </a>
-                <div class="post-date">
-                  2021-02-17
-                </div>
-                <div class="post-abstract">
-                  <p><strong>更换了主题，更加简洁</strong></p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
-        </div>
-      </div>
     </div>
-
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
 
 
 
