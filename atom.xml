@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hz1.xyz</id>
     <title>HM | Blog</title>
-    <updated>2021-02-17T09:11:22.545Z</updated>
+    <updated>2021-02-17T09:39:00.700Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hz1.xyz"/>
     <link rel="self" href="https://hz1.xyz/atom.xml"/>
@@ -11,12 +11,12 @@
     <icon>https://hz1.xyz/favicon.ico</icon>
     <rights>All rights reserved 2021, HM | Blog</rights>
     <entry>
-        <title type="html"><![CDATA[test]]></title>
+        <title type="html"><![CDATA[通知]]></title>
         <id>https://hz1.xyz/post/test/</id>
         <link href="https://hz1.xyz/post/test/">
         </link>
         <updated>2021-02-17T09:10:56.000Z</updated>
-        <content type="html"><![CDATA[<p>** test **</p>
+        <content type="html"><![CDATA[<p><strong>更换了主题，更加简洁</strong></p>
 ]]></content>
     </entry>
 </feed>
