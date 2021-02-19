@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hz1.xyz</id>
     <title>HM | Blog</title>
-    <updated>2021-02-18T11:10:30.409Z</updated>
+    <updated>2021-02-19T11:39:26.985Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hz1.xyz"/>
     <link rel="self" href="https://hz1.xyz/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://hz1.xyz/images/avatar.png</logo>
     <icon>https://hz1.xyz/favicon.ico</icon>
     <rights>All rights reserved 2021, HM | Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[不知道写些什么]]></title>
+        <id>https://hz1.xyz/post/bu-zhi-dao-xie-dian-shi-me/</id>
+        <link href="https://hz1.xyz/post/bu-zhi-dao-xie-dian-shi-me/">
+        </link>
+        <updated>2021-02-19T11:02:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>网站自从开了一个多星期以来....</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>网站自从开了一个多星期以来....</p>
+<!-- more -->
+<pre><code>   网站是从除夕那天开始折腾，虽然整体来讲不是很难，但也耗费了大量时间，本来以为有很多东西能写出来，毕竟我**才华横溢**😎，但我是一个内向的人，别说参加什么社交活动，连出去外面走走都很少；不仅如此，在兴趣爱好方面也与人不同，导致真心的朋友特别少，也就没有什么事情我认为很有意义并且分享出来。
+    但是，我认为在看这篇文章的你不一样，如果你想要分享，可以联系我~
+
+    **E-mail** jackming99@foxmail  **或** 1686614299@qq.com
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发现的问题]]></title>
         <id>https://hz1.xyz/post/fa-xian-de-wen-ti/</id>
